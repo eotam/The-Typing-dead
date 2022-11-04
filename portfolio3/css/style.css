@@ -1,0 +1,156 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    font-family: 'New Tegomin', serif;
+    color: red;
+}
+
+#inputText {
+    width: 1000px;
+}
+
+
+#startView {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url("../img/twd.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#start {
+    width: 700px;
+    height: 471px;
+    background-image: url("../img/bgi.png");
+    background-size: cover;
+    border: none;
+    margin-bottom: 0;
+    margin-left: auto;
+    transition: 0.2s;
+}
+
+#start:hover {
+    background-image: url("../img/bgi2.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#levelSelect {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/gif.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.Btn {
+    width: 300px;
+    background-color: black;
+    color: red;
+    border: 1px solid red;
+}
+
+.Btn:hover {
+    filter: drop-shadow(0px 10px 10px rgba(255, 0, 0, 0.6));
+}
+
+
+
+main {
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/gif.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+main p{
+    margin-top: 50px;
+    font-size: 60px;
+}
+
+main h1 {
+    border: 1px red solid;
+    text-align: center;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.505);
+}
+
+main h2 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.505);
+}
+
+#judge{
+    text-align: center;
+    font-size: 60px;
+    background-color: rgba(0, 0, 0, 0.505);
+}
+
+main h4 {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.505);
+}
+
+.enter {
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0.505);
+}
+
+main h5 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.505);
+}
+
+
+#gameOver {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    display: none;
+}
+
+#gameOver h2 {
+    font-size: 200px;
+}
+
+
+#clear {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+#clear h2 {
+    font-size: 200px;
+}
